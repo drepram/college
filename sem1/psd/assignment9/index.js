@@ -52,12 +52,12 @@ const lessThanAlpha = TTest.pValue() < options.alpha
 
 console.log('What is the P-value of the t-Test we ran?', pValueOfTTest)
 console.log('Is the P-value less than 0.05 (alpha)?', lessThanAlpha)
-console.log('Because the p-value is less than 0.05, we reject the null hypothesis.')
+console.log('Because the P-value is less than 0.05, we reject the null hypothesis.')
 
 console.log('\n')
 
 console.log(`With that being said, there is a ${(1 - pValueOfTTest)} or a ${Math.floor((1 - pValueOfTTest) * 100)}% chance that the significance is not random.`)
-console.log('Henceforth, we reject the null hypothesis and state that there is a significant difference between the math grades of SIMAK UI students and NON SIMAK UI students.')
+console.log('Henceforth, we reject the null hypothesis and state that there is a significant difference between the last semester\'s math grade of SIMAK UI students and NON SIMAK UI students.')
 
 console.log('\n')
 
