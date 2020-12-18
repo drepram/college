@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "anova": "^1.0.2",
+    "ml-anova": "^1.1.5",
+    "ttest": "^3.0.0"
+  }
+}
